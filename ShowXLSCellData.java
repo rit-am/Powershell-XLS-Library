@@ -10,13 +10,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
-
 public class ShowXLSCellData {
 
 	 public static void main(String[] args) throws IOException {
-		 String varstrPS1filename ="C:\\Users\\ritam\\Downloads\\scripts_ps\\ssps.ps1";
-		 String varstrXLSfilename="C:\\Users\\ritam\\Downloads\\data\\xls\\cstmxl.xlsx";
+		 String varstrPS1filename ="..\\ps1\\ssps.ps1";
+		 String varstrXLSfilename="..\\xls\\cstmxl.xlsx";
 		 String varstrXLSsheetname="CustomSheet";
 		 Integer varintROW=2;
 		 Integer varintCOL=9;
