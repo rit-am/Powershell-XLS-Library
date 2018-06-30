@@ -1,6 +1,3 @@
 # ps1_2read_xls
-powershell script to read a specific xls cell
-
-Java with APache POI cannot read XLS values with custom formatting as indicated in the  -file ".\cstmxl.xlsx" -sheet "CustomSheet" -row 2 -col 9
-
-Powershell to the recue. 
+# using java to invoke Microsoft PowerShell to read .xlsx files to overcome source formating complexities when using Apache POI with java
+# This code is not performance optimised but is a proof of concept
